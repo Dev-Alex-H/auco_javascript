@@ -1,0 +1,30 @@
+.App_header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background: #2f2f2fcf;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.nav_link {
+    font-size: 1.8rem;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px;
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 300px) {
+    .title {
+        font-size: 1.5rem;
+    }
+}

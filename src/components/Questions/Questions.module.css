@@ -1,0 +1,63 @@
+.fade_in {
+    margin: auto;
+    padding: 7vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2b144959;
+    box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+    -webkit-animation: fade_in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade_in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  
+  .card {
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+  }
+  
+  .card img {
+    margin: 10px;
+    border-radius: 5px;
+    width: 40%;
+    height: 40%;
+  }
+  
+  .float_rigth {
+    float: right;
+  }
+  
+  .float_left {
+    float: left;
+  }
+  
+  .card p {
+    width: 90%;
+  }
+  
+  @-webkit-keyframes fade_in {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade_in {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
